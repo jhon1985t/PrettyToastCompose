@@ -5,8 +5,6 @@ NPrettyToastJetpack/src/main/java/com/jhonjto/prettytoastjetpack/FailedToast.kt
 LPrettyToastJetpack/src/main/java/com/jhonjto/prettytoastjetpack/InfoToast.kt,f\8\f8494f2b8cbb3add0c275b86d0b665d1b749e97a
 ~
 NPrettyToastJetpack/src/main/java/com/jhonjto/prettytoastjetpack/SuccesToast.kt,5\a\5ae3821d306ad5f3205e2cefc48bb26d895e414f
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 @
 local.properties,0\7\0712df971a99ac4d2fccb8e0fb19f377f3374cca
 r
