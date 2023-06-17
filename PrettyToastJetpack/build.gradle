@@ -87,7 +87,7 @@ afterEvaluate {
 
                 groupId='com.jhonjto.prettytoastjetpack'
                 artifactId="PrettyToastJetpack"
-                version='0.1.3'
+                version='0.1.4'
             }
         }
     }
