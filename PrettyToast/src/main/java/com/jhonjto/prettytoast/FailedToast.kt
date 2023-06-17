@@ -18,7 +18,7 @@ class FailedToast {
         val GRAVITY_BOTTOM = 80
         private lateinit var layoutInflater: LayoutInflater
 
-        fun infoToast(context: Activity, message: String, position: Int) {
+        fun failedToast(context: Activity, message: String, position: Int) {
             layoutInflater = LayoutInflater.from(context)
             val layout = layoutInflater.inflate(
                 R.layout.failed_toast,
@@ -37,7 +37,7 @@ class FailedToast {
             )
             layout.background = drawable
             layout.findViewById<TextView>(R.id.custom_toast_message).setTextColor(Color.WHITE)
-            layout.findViewById<TextView>(R.id.custom_toast_image).text = message
+            layout.findViewById<TextView>(R.id.custom_toast_message).text = message
             val toast = Toast(context.applicationContext)
             toast.duration = Toast.LENGTH_SHORT
             if (position == GRAVITY_BOTTOM) {
@@ -49,7 +49,7 @@ class FailedToast {
             toast.show()
         }
 
-        fun infoToast(context: Activity, message: String, position: Int, font: Typeface?) {
+        fun failedToast(context: Activity, message: String, position: Int, font: Typeface?) {
             layoutInflater = LayoutInflater.from(context)
             val layout = layoutInflater.inflate(
                 R.layout.failed_toast,
@@ -75,6 +75,40 @@ class FailedToast {
             val toast = Toast(context.applicationContext)
             toast.duration = Toast.LENGTH_SHORT
             if (position == GRAVITY_BOTTOM) {
+                toast.setGravity(position, 0, 20)
+            } else {
+                toast.setGravity(position, 0, 0)
+            }
+            toast.view = layout//setting the view of custom toast layout
+            toast.show()
+        }
+
+        fun failedToast(context: Activity, message: String, position: Int, font: Typeface?, icon: Int) {
+            layoutInflater = LayoutInflater.from(context)
+            val layout = layoutInflater.inflate(
+                R.layout.failed_toast,
+                (context).findViewById(R.id.failed_toast)
+            )
+            layout.findViewById<ImageView>(R.id.custom_toast_image).setImageDrawable(
+                ContextCompat.getDrawable(
+                    context,
+                    icon
+                )
+            )
+            val drawable = ContextCompat.getDrawable(context, R.drawable.failed_bg)
+            drawable?.colorFilter = PorterDuffColorFilter(
+                ContextCompat.getColor(context, R.color.failed_toast_color),
+                PorterDuff.Mode.MULTIPLY
+            )
+            layout.background = drawable
+            layout.findViewById<TextView>(R.id.custom_toast_message).setTextColor(Color.WHITE)
+            layout.findViewById<TextView>(R.id.custom_toast_message).text = message
+            font?.let {
+                layout.findViewById<TextView>(R.id.custom_toast_message).typeface = font
+            }
+            val toast = Toast(context.applicationContext)
+            toast.duration = Toast.LENGTH_SHORT
+            if (position == InfoToast.GRAVITY_BOTTOM) {
                 toast.setGravity(position, 0, 20)
             } else {
                 toast.setGravity(position, 0, 0)

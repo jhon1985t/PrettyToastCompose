@@ -4,7 +4,7 @@
     <corners
         android:radius="40dp" />
     <solid
-        android:color="#FFFFFF" />
+        android:color="@color/failed_toast_color" />
     <size
         android:width="82dp"
         android:height="82dp" />

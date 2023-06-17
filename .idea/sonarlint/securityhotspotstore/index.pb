@@ -19,12 +19,6 @@ X
 (PrettyToast/src/main/AndroidManifest.xml,e\0\e07f8f0340ce05fc1de3ae1d52aa72db3c1264bd
 ^
 .PrettyToast/src/main/res/layout/info_toast.xml,f\a\faf2179ee783a5cf9b1516a14ea6cc13ee509ee6
-s
-CPrettyToast/src/main/java/com/jhonjto/prettytoast/SuccessToast.java,6\8\680b5b1a7b0956bb8b67fe70a1acc9e1957013bb
-p
-@PrettyToast/src/main/java/com/jhonjto/prettytoast/InfoToast.java,d\9\d9e44c3d16e9074f23dab68069d50f5557728ca5
-r
-BPrettyToast/src/main/java/com/jhonjto/prettytoast/FailedToast.java,0\d\0dfc91bdcadfe26c797fdcca6db529a0679d3ed8
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 A
