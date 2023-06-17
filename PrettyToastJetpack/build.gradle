@@ -64,9 +64,6 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest"
 }
 
-// --- Maven Local Publish Script(We only need this for local publish, to test the library)
-// Because the components are created only during the afterEvaluate phase, you must
-// configure your publications using the afterEvaluate() lifecycle method.
 afterEvaluate {
     publishing {
         publications {
@@ -78,7 +75,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId='com.jhonjto.prettytoastjetpack'
                 artifactId="PrettyToastJetpack"
-                version='0.1.5'
+                version='0.1.7'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -87,7 +84,7 @@ afterEvaluate {
 
                 groupId='com.jhonjto.prettytoastjetpack'
                 artifactId="PrettyToastJetpack"
-                version='0.1.5'
+                version='0.1.7'
             }
         }
     }

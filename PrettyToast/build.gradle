@@ -41,9 +41,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-// --- Maven Local Publish Script(We only need this for local publish, to test the library)
-// Because the components are created only during the afterEvaluate phase, you must
-// configure your publications using the afterEvaluate() lifecycle method.
 afterEvaluate {
     publishing {
         publications {
@@ -53,18 +50,18 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.jhonjto.prettytoast'
-                artifactId = "PrettyToast"
-                version = '0.1.5'
+                groupId='com.jhonjto.prettytoast'
+                artifactId="PrettyToast"
+                version='0.1.7'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
                 // Applies the component for the debug build variant.
                 from components.debug
 
-                groupId = 'com.jhonjto.prettytoast'
-                artifactId = "PrettyToast"
-                version = '0.1.5'
+                groupId='com.jhonjto.prettytoast'
+                artifactId="PrettyToast"
+                version='0.1.7'
             }
         }
     }
