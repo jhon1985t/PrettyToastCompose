@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <solid
-        android:color="@color/failed_toast_color" />
     <corners
-        android:bottomLeftRadius="25dp"
-        android:bottomRightRadius="25dp"
-        android:topLeftRadius="25dp"
-        android:topRightRadius="25dp"/>
+        android:radius="40dp" />
+    <solid
+        android:color="#FFFFFF" />
+    <size
+        android:width="82dp"
+        android:height="82dp" />
 
 </shape>
