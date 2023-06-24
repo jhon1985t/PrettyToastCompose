@@ -6,7 +6,7 @@ A project providing demonstrations on how to use custom toast and snackbar.
 Samples
 -------
 
-![ON_DEVICE](https://imgbox.com/sdPcvESy)
+![ON_DEVICE]([URL=https://imgbox.com/sdPcvESy][IMG]https://images2.imgbox.com/d8/66/sdPcvESy_o.png[/IMG][/URL])
 ![TOAST IMPLEMENTATION](https://imgbox.com/tkaqgK0l)
 ![SNACKBAR IMPLEMENTATION](https://imgbox.com/MvDKNIoO)
 
