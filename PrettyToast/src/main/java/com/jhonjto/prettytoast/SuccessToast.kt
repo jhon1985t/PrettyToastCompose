@@ -18,7 +18,7 @@ class SuccessToast{
         val GRAVITY_BOTTOM = 80
         private lateinit var layoutInflater: LayoutInflater
 
-        fun infoToast(context: Activity, message: String, position: Int) {
+        fun successToast(context: Activity, message: String, position: Int) {
             layoutInflater = LayoutInflater.from(context)
             val layout = layoutInflater.inflate(
                 R.layout.failed_toast,
@@ -49,7 +49,7 @@ class SuccessToast{
             toast.show()
         }
 
-        fun infoToast(context: Activity, message: String, position: Int, font: Typeface?) {
+        fun successToast(context: Activity, message: String, position: Int, font: Typeface?) {
             layoutInflater = LayoutInflater.from(context)
             val layout = layoutInflater.inflate(
                 R.layout.failed_toast,
@@ -83,7 +83,7 @@ class SuccessToast{
             toast.show()
         }
 
-        fun infoToast(context: Activity, message: String, position: Int, font: Typeface?, icon: Int) {
+        fun successToast(context: Activity, message: String, position: Int, font: Typeface?, icon: Int) {
             layoutInflater = LayoutInflater.from(context)
             val layout = layoutInflater.inflate(
                 R.layout.failed_toast,
