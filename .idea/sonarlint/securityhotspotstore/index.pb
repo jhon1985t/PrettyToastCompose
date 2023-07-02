@@ -29,8 +29,6 @@ p
 QPrettyToastJetpack/src/main/java/com/jhonjto/prettytoastjetpack/CustomSnackbar.kt,b\1\b183534bc44b5cb482f0e06069ac8333d4cdaa65
 q
 APrettyToast/src/main/java/com/jhonjto/prettytoast/SuccessToast.kt,2\f\2f7b11df877a1603779c51a79840897710c20ef7
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 @

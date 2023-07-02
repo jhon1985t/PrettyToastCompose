@@ -81,7 +81,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId='com.jhonjto.prettytoastjetpack'
                 artifactId="PrettyToastJetpack"
-                version='v1.0.0'
+                version='v1.0.1'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -90,7 +90,7 @@ afterEvaluate {
 
                 groupId='com.jhonjto.prettytoastjetpack'
                 artifactId="PrettyToastJetpack"
-                version='v1.0.0'
+                version='v1.0.1'
             }
         }
     }

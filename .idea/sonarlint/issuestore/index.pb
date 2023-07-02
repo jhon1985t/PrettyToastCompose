@@ -29,8 +29,6 @@ p
 @app/src/main/java/com/jhonjto/prettytoastcompose/MainActivity.kt,3\d\3d9e3ef10a00d4b5bfe8bb3e4ce9d2fb38f7b202
 q
 APrettyToast/src/main/java/com/jhonjto/prettytoast/SuccessToast.kt,2\f\2f7b11df877a1603779c51a79840897710c20ef7
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 @
