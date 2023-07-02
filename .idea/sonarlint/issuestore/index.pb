@@ -31,3 +31,5 @@ _
 /PrettyToastJetpack/src/main/AndroidManifest.xml,9\b\9bfee22388e12598d35e3845b0a15967a5b411f5
 ;
 jitpack.yml,3\f\3f384c5ac91d01ea9ab11981ab87f1d958f63284
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
