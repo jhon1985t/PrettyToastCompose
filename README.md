@@ -6,7 +6,7 @@ A project providing demonstrations on how to use custom toast and snackbar.
 Samples
 -------
 
-latest version v1.0.1
+latest version 1.0.2
 
 ![prettytoastcompose](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/aa4237c5-e520-4e5e-a2eb-83e26dd3f67f)
 
