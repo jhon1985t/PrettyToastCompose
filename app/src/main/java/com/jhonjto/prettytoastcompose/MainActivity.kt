@@ -29,8 +29,8 @@ import com.jhonjto.prettytoast.FailedToast
 import com.jhonjto.prettytoast.InfoToast
 import com.jhonjto.prettytoast.SuccessToast
 import com.jhonjto.prettytoastcompose.ui.theme.PrettyToastComposeTheme
-import com.jhonjto.prettytoastjetpack.ArrangementPosition
-import com.jhonjto.prettytoastjetpack.CustomSnackbar
+import com.jhonjto.prettytoast.ArrangementPosition
+import com.jhonjto.prettytoast.CustomSnackbar
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

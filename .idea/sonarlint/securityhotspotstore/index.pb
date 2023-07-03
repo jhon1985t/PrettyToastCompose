@@ -21,8 +21,6 @@ A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 p
 @PrettyToast/src/main/java/com/jhonjto/prettytoast/FailedToast.kt,e\4\e46697515cf9591b2717f7728c90ed79d9b86e1f
-Å
-QPrettyToastJetpack/src/main/java/com/jhonjto/prettytoastjetpack/CustomSnackbar.kt,b\1\b183534bc44b5cb482f0e06069ac8333d4cdaa65
 q
 APrettyToast/src/main/java/com/jhonjto/prettytoast/SuccessToast.kt,2\f\2f7b11df877a1603779c51a79840897710c20ef7
 X
@@ -33,3 +31,7 @@ _
 jitpack.yml,3\f\3f384c5ac91d01ea9ab11981ab87f1d958f63284
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+O
+PrettyToastJetpack/build.gradle,4\9\49c790cbe28dd69f89fbca508d0bba7fda4f3417
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
