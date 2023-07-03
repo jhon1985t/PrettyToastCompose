@@ -8,13 +8,14 @@ Samples
 
 latest version 1.0.4
 
-![prettytoastcompose](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/aa4237c5-e520-4e5e-a2eb-83e26dd3f67f)
+![prettytoastcompose](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/bc73c0a7-eec9-469d-912d-1d53bd4998bb)
 
-![prettytoastcomposetoast](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/f9ca3b33-7708-41b6-b26a-d092426ae638)
+![prettytoastcomposetoast](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/dd495014-adaa-4134-abda-d2db9b571a90)
 
-![prettytoastcomposesnackbar](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/652c943e-9c8e-41fc-9506-bbaab810f63c)
+![prettytoastcomposesnackbar](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/35225716-debf-4ddd-b958-abd5062657c7)
 
-![prettytoastcomposehowtouse](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/77e5f9f6-d755-4c12-991c-92adb754ebb7)
+![prettytoastcomposehowtouse](https://github.com/jhon1985t/PrettyToastCompose/assets/36683695/1d51fdc3-0529-42f7-a5a7-9af6413f547e)
+
 
 Sample library overview
 -------------------
